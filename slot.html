@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/slot.css">
+</head>
+
+<body>
+    <div class="bgc">
+        <div class="wrapper">
+            <!-- スロット部分 -->
+            <div class="box-panel">
+                <div>
+                    <div class="panel">
+                        <main id="roll1">5</main>
+                    </div>
+                    <button class="bt-stop" id="bt-roll1" onClick="stopRoll(rolling1)">stop</button>
+                </div>
+                <div>
+                    <div class="panel">
+                        <main id="roll2">5</main>
+                    </div>
+                    <button class="bt-stop" id="bt-roll1" onClick="stopRoll(rolling2)">stop</button>
+                </div>
+                <div>
+                    <div class="panel">
+                        <main id="roll3">5</main>
+                    </div>
+                    <button class="bt-stop" id="bt-roll1" onClick="stopRoll(rolling3)">stop</button>
+                </div>
+            </div>
+
+            <!-- スタートボタン -->
+            <div class="box-start">
+                <h1>ボタンを押してスタート</h1>
+                <button id="bt-start" onClick="start()">Start!</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./scripts/slot.js"></script>
+
+</html>
