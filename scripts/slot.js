@@ -5,7 +5,7 @@ tx_roll3 = document.getElementById("roll3");
 
 const start = () => {
     count_stoped = 0;
-    count_speed = 1000;
+    count_speed = 100;
 
     // startボタンの状態を初期化
     bt_start.setAttribute("disabled", true);
